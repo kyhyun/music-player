@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "새벽 별과 소년의 노래",
+    "artist": "Sereno",
+    "image": "assets/images/thumb_1.png",
+    "audio": "assets/music/새벽별과소년의노래.mp3",
+    "favorited": "false"
+  },
+  {
+    "id": 2,
+    "title": "북극성의 기억",
+    "artist": "Sereno",
+    "image": "assets/images/thumb_2.png",
+    "audio": "assets/music/Polaris-Memories.mp3",
+    "favorited": "false"
+  },
+  {
+    "id": 3,
+    "title": "나선의 달",
+    "artist": "Sereno",
+    "image": "assets/images/thumb_3.png",
+    "audio": "assets/music/나선의달.mp3",
+    "favorited": "false"
+  },
+  {
+    "id": 4,
+    "title": "Reflection (Mirror Night)",
+    "artist": "V.K",
+    "image": "assets/images/thumb_4.png",
+    "audio": "assets/music/Reflection.mp3",
+    "favorited": "false"
+  },
+  {
+    "id": 5,
+    "title": "Wizard's Dinner",
+    "artist": "Oneul",
+    "image": "assets/images/thumb_5.png",
+    "audio": "assets/music/Wizard-Dinner.mp3",
+    "favorited": "false"
+  },
+  {
+    "id": 6,
+    "title": "kaya Toast",
+    "artist": "Oneul",
+    "image": "assets/images/thumb_6.png",
+    "audio": "assets/music/Kaya-Toast.mp3",
+    "favorited": "false"
+  },
+  {
+    "id": 7,
+    "title": "When Spring Comes",
+    "artist": "Oneul",
+    "image": "assets/images/thumb_7.png",
+    "audio": "assets/music/when-spring-comes.mp3",
+    "favorited": "false"
+  },
+  {
+    "id": 8,
+    "title": "MEGALOVANIA",
+    "artist": "Toby Fox",
+    "image": "assets/images/thumb_8.png",
+    "audio": "assets/music/MEGALOVANIA.mp3",
+    "favorited": "false"
+  }
+]
