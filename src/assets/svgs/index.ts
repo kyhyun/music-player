@@ -1,0 +1,6 @@
+export { ReactComponent as PlayIcon } from './circle-play-solid.svg'
+export { ReactComponent as FavoriteIcon } from './star-solid.svg'
+export { ReactComponent as MoreIcon } from './ellipsis-solid.svg'
+export { ReactComponent as PauseIcon } from './pause-solid.svg'
+export { ReactComponent as HeadPhoneIcon } from './headphones-simple-solid.svg'
+export { ReactComponent as MusicIcon } from './music-solid.svg'

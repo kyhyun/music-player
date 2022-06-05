@@ -5,7 +5,6 @@ export { useClickAway, useInterval, usePrevious, useMount, useUnmount } from 're
 export { useState, useEffect, useLayoutEffect, useCallback, useContext, useMemo, useReducer, useRef } from 'react'
 
 export { useKeys } from './useKeys'
-export { useSendApi } from './useSendApi'
 export { useTimeoutFn } from './useTimeoutFn'
 
 export function useMounted(): boolean {

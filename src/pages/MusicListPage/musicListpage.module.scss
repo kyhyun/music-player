@@ -1,1 +1,10 @@
-@use '/src//styles/constants/colors';
+@use '/src/styles/constants//colors';
+@use '/src/styles/mixins/flexbox';
+
+.wrap {
+  flex-direction: column;
+  width: 375px;
+  height: 100vh;
+  margin: auto;
+  @include flexbox.flexbox;
+}

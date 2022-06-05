@@ -3,5 +3,11 @@ export interface IMusic {
   title: string
   artist: string
   image: string
+  audio: string
   favorited: boolean
+}
+
+export interface IAudio {
+  audio: HTMLAudioElement | null
+  isPlaying: booleal
 }
