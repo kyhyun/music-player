@@ -1,0 +1,49 @@
+@use '/src/styles/constants//colors';
+@use '/src/styles/mixins/flexbox';
+
+.wrap {
+  @include flexbox.flexbox;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  background: linear-gradient(to bottom, colors.$WHITE 0%, colors.$WHITE 75%, transparent 100%);
+  backdrop-filter: blur(30%);
+
+  .songThumbnailWrap {
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    margin: 20px;
+    user-select: none;
+    border-radius: 50%;
+    box-shadow: inset 6px 6px 20px 0 rgba(27, 124, 124, 20%), 0 4px 16px rgba(104, 255, 255, 10%),
+      0 8px 20px rgba(104, 255, 255, 10%), 0 16px 28px rgba(102, 111, 128, 40%);
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      border: 1px solid transparent;
+      border-radius: 50%;
+    }
+
+    .loadingIcon {
+      width: 80px;
+      height: 80px;
+      fill: colors.$GRAY2;
+      transform: translate(48px, 48px);
+    }
+  }
+
+  .favorite,
+  .more {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: colors.$GRAY2;
+    border-radius: 50%;
+    fill: colors.$WHITE;
+  }
+}
