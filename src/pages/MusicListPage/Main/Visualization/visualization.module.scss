@@ -6,9 +6,10 @@
   position: sticky;
   top: 0;
   z-index: 3;
+  flex-direction: column;
   width: 100%;
-  background: linear-gradient(to bottom, colors.$WHITE 0%, colors.$WHITE 75%, transparent 100%);
-  backdrop-filter: blur(30%);
+  height: 280px;
+  background: linear-gradient(to bottom, colors.$WHITE 0%, colors.$TRANSPARENT_WHITE 90%, transparent 100%);
 
   .songThumbnailWrap {
     width: 200px;
@@ -37,13 +38,19 @@
     }
   }
 
-  .favorite,
-  .more {
-    width: 36px;
-    height: 36px;
-    padding: 8px;
-    background: colors.$GRAY2;
-    border-radius: 50%;
-    fill: colors.$WHITE;
+  .thumbnailDescription {
+    width: 100%;
+    font-size: 16px;
+    color: colors.$GRAY2;
+    text-align: center;
+
+    .thumbnailTitle {
+      font-weight: 500;
+      line-height: 18px;
+    }
+
+    .thumbnailArtist {
+      font-size: 14px;
+    }
   }
 }

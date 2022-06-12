@@ -4,7 +4,6 @@ export interface IMusic {
   artist: string
   image: string
   audio: string
-  favorited: boolean
 }
 
 export interface IAudio {

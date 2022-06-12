@@ -4,63 +4,55 @@
     "title": "새벽 별과 소년의 노래",
     "artist": "Sereno",
     "image": "/static/media/thumb_1.ab7fbc1decab1010b883.png",
-    "audio": "/static/media/TheMorningStarAndTheBoySong.dc1058c13fd98572ad69.mp3",
-    "favorited": false
+    "audio": "/static/media/TheMorningStarAndTheBoySong.dc1058c13fd98572ad69.mp3"
   },
   {
     "id": 1,
     "title": "북극성의 기억",
     "artist": "Sereno",
     "image": "/static/media/thumb_2.d8a19dae28bb78fe2840.jpeg",
-    "audio": "/static/media/Polaris-Memories.9c005e4dd6351590d6c3.mp3",
-    "favorited": false
+    "audio": "/static/media/Polaris-Memories.9c005e4dd6351590d6c3.mp3"
   },
   {
     "id": 2,
     "title": "나선의 달",
     "artist": "Sereno",
     "image": "/static/media/thumb_3.03037776977223de554d.jpg",
-    "audio": "/static/media/spiralMoon.e8c095ab5e3e77179f6c.mp3",
-    "favorited": false
+    "audio": "/static/media/spiralMoon.e8c095ab5e3e77179f6c.mp3"
   },
   {
     "id": 3,
     "title": "Reflection (Mirror Night)",
     "artist": "V.K",
     "image": "/static/media/thumb_4.3da14f49e9a20264c45a.png",
-    "audio": "/static/media/Reflection.cb6f276bd1f7240aa025.mp3",
-    "favorited": false
+    "audio": "/static/media/Reflection.cb6f276bd1f7240aa025.mp3"
   },
   {
     "id": 4,
     "title": "Wizard's Dinner",
     "artist": "Oneul",
     "image": "/static/media/thumb_5.d661781a87b8d29864aa.png",
-    "audio": "/static/media/Wizard-Dinner.694a0b46cc4f04a4679e.mp3",
-    "favorited": false
+    "audio": "/static/media/Wizard-Dinner.694a0b46cc4f04a4679e.mp3"
   },
   {
     "id": 5,
     "title": "kaya Toast",
     "artist": "Oneul",
     "image": "/static/media/thumb_6.53c960a09f3ad10e94b3.png",
-    "audio": "/static/media/Kaya-Toast.138f4c3241d28dac0032.mp3",
-    "favorited": false
+    "audio": "/static/media/Kaya-Toast.138f4c3241d28dac0032.mp3"
   },
   {
     "id": 6,
     "title": "When Spring Comes",
     "artist": "Oneul",
     "image": "/static/media/thumb_7.bfa217685d118c7a25ef.png",
-    "audio": "/static/media/when-spring-comes.20998c19f2f28704400b.mp3",
-    "favorited": false
+    "audio": "/static/media/when-spring-comes.20998c19f2f28704400b.mp3"
   },
   {
     "id": 7,
     "title": "MEGALOVANIA",
     "artist": "Toby Fox",
     "image": "/static/media/thumb_8.d2d34fa50cc1965ec4b8.jpg",
-    "audio": "/static/media/MEGALOVANIA.6c35299fbd2479f322b5.mp3",
-    "favorited": false
+    "audio": "/static/media/MEGALOVANIA.6c35299fbd2479f322b5.mp3"
   }
 ]

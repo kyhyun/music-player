@@ -2,8 +2,9 @@
 @use '/src/styles/mixins/flexbox';
 
 .wrap {
-  @include flexbox.flexbox;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 500px;
   margin: 0 auto;

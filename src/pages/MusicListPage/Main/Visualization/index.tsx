@@ -1,4 +1,4 @@
-import { FavoriteIcon, MoreIcon, MusicIcon } from 'assets/svgs'
+import { MusicIcon } from 'assets/svgs'
 import { useRecoilValue } from 'recoil'
 import { currentIdState, musicState } from 'store/music'
 import styles from './visualization.module.scss'
@@ -40,13 +40,13 @@ const Visualization = () => {
 
   return (
     <section className={styles.wrap}>
-      <button type='button' className={styles.favorite}>
-        <FavoriteIcon />
-      </button>
       <div className={styles.songThumbnailWrap}>{thumbnailRender()}</div>
-      <button type='button' className={styles.more}>
-        <MoreIcon />
-      </button>
+      {currentId > -1 && (
+        <dl className={styles.thumbnailDescription}>
+          <dt className={styles.thumbnailTitle}>{musicData[currentId].title}</dt>
+          <dd className={styles.thumbnailArtist}>{musicData[currentId].artist}</dd>
+        </dl>
+      )}
     </section>
   )
 }

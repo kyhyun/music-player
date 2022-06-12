@@ -85,7 +85,7 @@ const PlayList = () => {
     <section className={styles.contents}>
       <dl>{renderMusicList()}</dl>
       {audioTrack && (
-        <audio src={audioTrack} ref={audioRef} controls autoPlay>
+        <audio src={audioTrack} ref={audioRef} controls autoPlay className={styles.audioPlayer}>
           <track default srcLang='ko' kind='captions' label={musicInfo[currentId].title} />
         </audio>
       )}
