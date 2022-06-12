@@ -7,9 +7,6 @@
 
 ### [배포 링크](https://team8-react-music-app.netlify.app/)
 
-#### ❗ 주의 
-> 음악을 정지하는 기능을 구현하지 못해 연속적으로 다른 곡들을 실행 시키는 경우 음악이 중첩해서 들립니다.
-
 ## ⚙ 기술 스택
   <img src="https://img.shields.io/badge/TypeScript-v4.4.2-blue"/>
   <img src="https://img.shields.io/badge/React-v18.1.0-blue"/>
